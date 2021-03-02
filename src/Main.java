@@ -28,7 +28,60 @@ public class Main {
         long startTime = System.nanoTime();
 
         List<channel> channels = new ArrayList<>();
+        
             String path = "input1.txt";
+            String article = read(path);
+            point p = info.createPoint();
+            channel c = p.createChannel();
+            p.execute("Algo");
+            c.write(article);
+            c.write(positives);
+            c.write(negatives);
+            c.write(sports);
+            c.write(covid);
+            c.write(aviation);
+            channels.add(c);
+        
+            String path = "input2.txt";
+            String article = read(path);
+            point p = info.createPoint();
+            channel c = p.createChannel();
+            p.execute("Algo");
+            c.write(article);
+            c.write(positives);
+            c.write(negatives);
+            c.write(sports);
+            c.write(covid);
+            c.write(aviation);
+            channels.add(c);
+        
+            String path = "input3.txt";
+            String article = read(path);
+            point p = info.createPoint();
+            channel c = p.createChannel();
+            p.execute("Algo");
+            c.write(article);
+            c.write(positives);
+            c.write(negatives);
+            c.write(sports);
+            c.write(covid);
+            c.write(aviation);
+            channels.add(c);
+        
+            String path = "input4.txt";
+            String article = read(path);
+            point p = info.createPoint();
+            channel c = p.createChannel();
+            p.execute("Algo");
+            c.write(article);
+            c.write(positives);
+            c.write(negatives);
+            c.write(sports);
+            c.write(covid);
+            c.write(aviation);
+            channels.add(c);
+        
+            String path = "input5.txt";
             String article = read(path);
             point p = info.createPoint();
             channel c = p.createChannel();
