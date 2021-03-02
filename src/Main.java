@@ -111,8 +111,11 @@ public class Main {
             channels.add(c);
         }*/
 
-
+        int i = 1;
+        
         for (parcs.channel channel : channels) {
+            System.out.println("/n/n/n/n Processing article" + String.valueOf(i));
+            i++;
             System.out.println("Waiting for result...");
 
             String topic = (String) channel.readObject();
