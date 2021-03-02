@@ -28,7 +28,7 @@ public class Main {
         long startTime = System.nanoTime();
 
         List<channel> channels = new ArrayList<>();
-            String path = ""
+            String path = "";
             path = "input1.txt";
             String article1 = read(path);
             point p1 = info.createPoint();
