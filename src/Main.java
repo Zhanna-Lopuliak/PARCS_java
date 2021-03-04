@@ -114,7 +114,7 @@ public class Main {
         int i = 1;
         
         for (parcs.channel channel : channels) {
-            System.out.println("/n/n/n/n Processing article" + String.valueOf(i));
+            System.out.println("\n\n\n\n Processing article" + String.valueOf(i));
             i++;
             System.out.println("Waiting for result...");
 
